@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*{
+    font-family: poppins;
+    background-color: #121212;
+    color: white;
+}
+
+.pg-title{
+    text-align: center;
+}
+
+.abt-me{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.projects  {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navat{
+    display: flex;
+    padding-left:  10px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.navat li {
+    padding: 30px;
+    text-decoration: none;
+    
+}
+
+button{
+    background-color :blueviolet;
+    padding: 0.9rem;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: blueviolet;
+    transform: scale(1.1555);
+    transition: ease-in-out 0.1s;
+    
+}
